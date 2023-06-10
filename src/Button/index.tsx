@@ -1,7 +1,5 @@
 import React from 'react';
 
-let a;
-
 interface ButtonProps {
   children: React.ReactNode;
 }

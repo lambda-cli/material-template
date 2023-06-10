@@ -4,3 +4,6 @@ dist
 .storybook
 storybook-static
 stories
+node_modules/
+dist/
+.prettierrc.js
