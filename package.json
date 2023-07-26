@@ -1,7 +1,7 @@
 {
   "name": "material-template",
   "version": "1.0.1",
-  "description": "",
+  "description": "物料开发模板",
   "scripts": {
     "dev": "storybook dev -p 9100",
     "build": "npm run build:dist &&  npm run build:docs",
@@ -10,18 +10,18 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Lin Xiangjun <xiangjun.lin@outlook.com>",
   "license": "ISC",
   "files": [
     "dist",
     "storybook-static"
   ],
   "main": "./dist/material-template.umd.js",
-  "module": "./dist/material-template.umd.mjs",
+  "module": "./dist/material-template.mjs",
   "exports": {
     ".": {
-      "import": "./dist/material-template.umd.mjs",
-      "require": "./dist/material-template.umd.umd.js"
+      "import": "./dist/material-template.mjs",
+      "require": "./dist/material-template.umd.js"
     }
   },
   "devDependencies": {

@@ -12,4 +12,4 @@
 
 - 集成 Jest + React Library 单元测试相关插件和示例
 - ✅ 默认的代码提交信息规范，自动生成 CHANGELOG.md 内容
-- 集成 CLI
+- ✅ 集成 CLI
